@@ -409,7 +409,7 @@ export default function Home() {
                       </p>
                       <button
                         onClick={() => {
-                          const value = quantity + 10;
+                          const value = quantity + 1;
                           if (value > maxClaimable) {
                             setQuantity(maxClaimable);
                           } else if (value < 1) {
